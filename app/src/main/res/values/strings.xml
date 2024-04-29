@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">StarRail Toolbox</string>
+    <string name="wish_calculator">Wish Calculator</string>
+    <string name="wish_simulator">Wish Simulator</string>
+    <string name="trailblaze_calculator">Trailblaze Calculator</string>
+    <string name="current_saved_wishes">Currently Saved Wishes:</string>
+    <string name="days_until_end_of_update">Days Until End of Update:</string>
+    <string name="updates_until_character">Updates Until Character:</string>
+    <string name="update_half">Update Half?</string>
+    <string name="paid_user">Paid User?</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="f2p">Free to Play</string>
+    <string name="battlepass">BattlePass</string>
+    <string name="welkin">Welkin</string>
+    <string name="welkinbp">Welkin+BP</string>
+    <string name="result">Result:</string>
+    <string name="calculate">Calculate</string>
+    <string name="num_of_wishes">Number Of Wishes:</string>
+    <string name="character_pity">Character Banner Pity:</string>
+    <string name="lightcone_pity">LightCone Banner Pity:</string>
+    <string name="num_characters_wanted">Number of Characters Wanted:</string>
+    <string name="num_lightcones_wanted">Number of LightCones Wanted:</string>
+    <string name="guarantee_character">Guaranteed Character?</string>
+    <string name="guarantee_lightcone">Guaranteed LightCone?</string>
+</resources>
