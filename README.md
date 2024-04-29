@@ -16,7 +16,7 @@ This can be accomplished as follows:
 # Main Menu
 The Main Menu can be seen as follows
 
-![Screenshot_20240429-212306_StarRail Toolbox](https://github.com/J-Alexander99/HonkaiStarRailApp/assets/148716418/46f134b8-23b6-4f61-80f7-840cf7f9ce35)
+![Screenshot_20240429-212306_StarRail Toolbox](https://github.com/J-Alexander99/HonkaiStarRailApp/assets/148716418/46f134b8-23b6-4f61-80f7-840cf7f9ce35 | width=200)
 
 This menu has two current options, first the wish calculator and then second wish simulator.
 We are going to click on the wish calculator first.
