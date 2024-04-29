@@ -16,11 +16,13 @@ This can be accomplished as follows:
 # Main Menu
 The Main Menu can be seen as follows
 
-![Screenshot_20240429-212306_StarRail Toolbox](https://github.com/J-Alexander99/HonkaiStarRailApp/assets/148716418/46f134b8-23b6-4f61-80f7-840cf7f9ce35)
+<img src="https://github.com/J-Alexander99/HonkaiStarRailApp/assets/148716418/46f134b8-23b6-4f61-80f7-840cf7f9ce35" alt="Screenshot_20240429-212306_StarRail Toolbox" width="400">
+
 
 This menu has two current options, first the wish calculator and then second wish simulator.
 We are going to click on the wish calculator first.
 This will take us to the following screen:
 
-![Screenshot_20240429-212639_StarRail Toolbox](https://github.com/J-Alexander99/HonkaiStarRailApp/assets/148716418/7ced32c7-df5b-4752-a4e2-e2bf5353daeb)
+<img src="https://github.com/J-Alexander99/HonkaiStarRailApp/assets/148716418/7ced32c7-df5b-4752-a4e2-e2bf5353daeb" alt="Screenshot_20240429-212639_StarRail Toolbox" width="400">
+
 
