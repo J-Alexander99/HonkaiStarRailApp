@@ -7,4 +7,141 @@
     android:layout_height="match_parent"
     tools:context=".trailblazeCalculator">
 
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trailblaze Calculator"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <!-- Total Common -->
+    <EditText
+        android:id="@+id/totalCommonEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Total Common"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <!-- Total Uncommon -->
+    <EditText
+        android:id="@+id/totalUncommonEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Total Uncommon"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalCommonEditText" />
+
+    <!-- Total Rare -->
+    <EditText
+        android:id="@+id/totalRareEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Total Rare"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalUncommonEditText" />
+
+    <!-- Character Level Have -->
+    <!-- Add similar EditTexts for other input fields -->
+
+    <!-- Additional Skill 1 Have -->
+    <CheckBox
+        android:id="@+id/additionalSkill1HaveCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Skill 1 Have"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalRareEditText" />
+
+    <EditText
+        android:id="@+id/additionalSkill1HaveEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Additional Skill 1 Have"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/additionalSkill1HaveCheckbox"
+        app:layout_constraintTop_toTopOf="@id/additionalSkill1HaveCheckbox" />
+
+    <!-- Additional Skill 2 Have -->
+    <CheckBox
+        android:id="@+id/additionalSkill2HaveCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Skill 2 Have"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/additionalSkill1HaveEditText" />
+
+    <EditText
+        android:id="@+id/additionalSkill2HaveEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Additional Skill 2 Have"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/additionalSkill2HaveCheckbox"
+        app:layout_constraintTop_toTopOf="@id/additionalSkill2HaveCheckbox" />
+
+    <!-- Additional Skill 3 Have -->
+    <CheckBox
+        android:id="@+id/additionalSkill3HaveCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Skill 3 Have"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/additionalSkill2HaveEditText" />
+
+    <EditText
+        android:id="@+id/additionalSkill3HaveEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Additional Skill 3 Have"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/additionalSkill3HaveCheckbox"
+        app:layout_constraintTop_toTopOf="@id/additionalSkill3HaveCheckbox" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/additionalSkill3HaveEditText"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Result TextViews -->
+    <TextView
+        android:id="@+id/calculateResultsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overall leveling up your character will take:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calculateButton" />
+
+    <TextView
+        android:id="@+id/calculateResults2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calculateResultsTextView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

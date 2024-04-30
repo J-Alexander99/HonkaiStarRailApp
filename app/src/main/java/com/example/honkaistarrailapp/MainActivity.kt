@@ -31,5 +31,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, wishSimulator::class.java)
             startActivity(intent)
         }
+
+        val button3 = findViewById<Button>(R.id.button3) // Assuming you have a button to navigate to the third activity
+        button3.setOnClickListener {
+            val intent = Intent(this, trailblazeCalculator::class.java)
+            startActivity(intent)
+        }
     }
 }
+
